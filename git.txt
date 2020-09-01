@@ -18,6 +18,8 @@ git log --pretty=oneline
 
 git reset --hard HEAD^ 回退上个版本
 
+git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区：
+
 git revert commitid
 如果已经有A -> B -> C，想回到B：
 方法一：reset到B，丢失C：
@@ -30,3 +32,7 @@ C还在，但是两个B是重复的
 
 
 git reflog用来记录你的每一次命令
+
+git checkout -- file可以丢弃工作区的修改
+
+
