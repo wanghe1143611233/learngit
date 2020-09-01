@@ -9,3 +9,13 @@ git commit -m "wrote a readme file"
 git status命令可以让我们时刻掌握仓库当前的状态
 
 git diff '<file>' 查看修改哪些内容
+
+git log 命令显示从最近到最远的提交日志
+
+如果嫌输出信息太多，看得眼花缭乱的，可以试试加上--pretty=oneline参数
+
+git log --pretty=oneline
+
+git reset --hard HEAD^ 回退上个版本
+
+git reflog用来记录你的每一次命令
