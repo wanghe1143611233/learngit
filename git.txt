@@ -1,6 +1,6 @@
-$ git config --global user.name "王贺"
+git config --global user.name "王贺"
 
-config --global user.email "1143611233@qq.com"
+git config --global user.email "1143611233@qq.com"
 
 git add readme.txt
 
