@@ -1,0 +1,7 @@
+$ git config --global user.name "王贺"
+
+config --global user.email "1143611233@qq.com"
+
+git add readme.txt
+
+git commit -m "wrote a readme file"
