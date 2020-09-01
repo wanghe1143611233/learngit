@@ -18,4 +18,15 @@ git log --pretty=oneline
 
 git reset --hard HEAD^ 回退上个版本
 
+git revert commitid
+如果已经有A -> B -> C，想回到B：
+方法一：reset到B，丢失C：
+A -> B
+方法二：再提交一个revert反向修改，变成B：
+A -> B -> C -> B
+C还在，但是两个B是重复的
+看你的需求，也许C就是瞎提交错了（比如把密码提交上去了），必须reset
+如果C就是修改，现在又要改回来，将来可能再改成C，那你就revert
+
+
 git reflog用来记录你的每一次命令
