@@ -36,8 +36,12 @@ git reflog用来记录你的每一次命令
 git checkout -- file可以丢弃工作区的修改
 
 
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
 
-
+git branch命令查看当前分支
 
 
 
