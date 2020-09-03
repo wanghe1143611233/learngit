@@ -53,4 +53,4 @@ git remote -v显示更详细的信息
 
 git checkout -b dev origin/dev 创建本地dev分支
 
-
+git branch --set-upstream-to=origin/dev dev 设置dev和origin/dev的链接
