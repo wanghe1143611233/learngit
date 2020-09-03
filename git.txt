@@ -16,6 +16,8 @@ git log 命令显示从最近到最远的提交日志
 
 git log --pretty=oneline
 
+git log --graph 查看分支合并图
+
 git reset --hard HEAD^ 回退上个版本
 
 git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区：
@@ -45,6 +47,9 @@ git branch命令查看当前分支
 
 git merge dev 合并dev分支
 git branch -d dev 删除开发分支
+
+git remote 查看远程库的信息
+git remote -v显示更详细的信息
 
 
 
