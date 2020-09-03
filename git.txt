@@ -48,6 +48,8 @@ git branch命令查看当前分支
 git merge dev 合并dev分支
 git branch -d dev 删除开发分支
 
+git remote 查看远程库的信息
+git remote -v显示更详细的信息
 
 
 
